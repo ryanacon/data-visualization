@@ -1,0 +1,10 @@
+name,parent
+juan,null
+federico,juan
+pablo,federico
+leonardo,federico
+alberto,juan
+fernando,juan
+esteban,leonardo
+roberto,fernando
+felipe,fernando
