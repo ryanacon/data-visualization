@@ -1,10 +1,6 @@
-name,parent
+child,parent
 juan,""
 federico,juan
-pablo,federico
-leonardo,federico
-alberto,juan
-fernando,juan
-esteban,leonardo
-roberto,fernando
-felipe,fernando
+leonardo,juan
+fernando,leonardo
+soledad,leonardo
