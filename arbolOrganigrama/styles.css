@@ -1,18 +1,19 @@
 path {
-    fill: none;
-    stroke: black;
-    stroke-width: 3px; 
+  fill: none;
+  stroke: grey;
+  stroke-width: 1px; 
 }
 
 rect {
-    fill: white;
-    stroke: black;
-    width: 80px;
-    height: 40px;
-    stroke-width: 3px;
+  fill: white;
+  stroke: black;
+  width: 80px;
+  height: 40px;
+  stroke-width: 3px;
+  cursor: pointer;
 }
 
 text {
-    dominant-baseline: middle;
-    text-anchor: middle;
+  dominant-baseline: middle;
+  text-anchor: middle;
 }
