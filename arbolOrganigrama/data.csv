@@ -1,6 +1,6 @@
-child,parent
-juan,""
-federico,juan
-leonardo,juan
-fernando,leonardo
-soledad,leonardo
+child,parent,employeeData
+juan,"",2
+federico,juan,50
+leonardo,juan,60
+fernando,leonardo,90
+soledad,leonardo,180

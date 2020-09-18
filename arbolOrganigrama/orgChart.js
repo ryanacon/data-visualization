@@ -101,15 +101,15 @@ d3.csv("data.csv", function (data) {
 
         // Add labels for the nodes
         nodeEnter.append('text')
-            .attr("dy", ".35em")
+            .attr("dy", "2em")
             .attr("x", function (d) {
-                return d.children || d._children ? -13 : 13;
+                return d.children || d._children ? - 20 : 20;
             })
             .attr("text-anchor", function (d) {
                 return d.children || d._children ? "end" : "start";
             })
             .text(function (d) {
-                return d.data.data.child
+                return `${d.data.data.child}  ${d.data.data.employeeData}`
             });
 
         // UPDATE
